@@ -128,7 +128,7 @@ with st.sidebar:
     st.header("⚙️ 系统设置")
     
     # 默认数据集根目录
-    DEFAULT_ROOT = "D:\\lzk\\@PG\\03.@G2S2\\论文修改\\0620\\对比算法\\Dataset"
+    DEFAULT_ROOT = "D:"
     DEFAULT_UCI_PATH = os.path.join(DEFAULT_ROOT, "UCI")
     
     # 自动补全功能实现
