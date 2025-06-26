@@ -152,7 +152,7 @@ tab_main, tab_history = st.tabs(["🚀 运行实验", "📜 历史记录"])
 
 # 初始化session_state
 if 'dataset_path' not in st.session_state:
-    st.session_state.dataset_path = "D:\\lzk\\@PG\\03.@G2S2\\论文修改\\0620\\对比算法\\Dataset\\UCI"
+    st.session_state.dataset_path = "D:"
 
 with tab_main:
     st.header("新实验")
